@@ -30,7 +30,7 @@ export function App() {
           <Text size="md" className="text-gray-500 mb-2">
             Destinos de Interesse
           </Text>
-          <Button type="submit" className="w-32 h-12 flex justify-center items-center gap-2">
+          <Button type="submit" className="w-32 h-12">
             <SendButton.Icon>
               <PaperPlaneRight />
             </SendButton.Icon>

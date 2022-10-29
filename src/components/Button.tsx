@@ -29,7 +29,7 @@ export function Button({ children, asChild, className, ...props }: ButtonProps) 
   return (
     <Comp 
       className={clsx(
-        "py-2 px-6 rounded-4xl bg-gradient-to-r from-gradient-st to-gradient-end font-medium ring-transparent text-white text-sm hover:bg-gradient-to-r hover:from-gradientHover-st hover:to-gradientHover-end hover:text-white", className,
+        "py-2 px-6 rounded-4xl flex justify-center items-center gap-2 bg-gradient-to-r from-gradient-st to-gradient-end font-medium ring-transparent text-white text-sm hover:bg-gradient-to-r hover:from-gradientHover-st hover:to-gradientHover-end hover:text-white", className,
       )}
       {...props}
     >
