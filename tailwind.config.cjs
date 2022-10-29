@@ -28,9 +28,11 @@ module.exports = {
         end: '#05F0F0'
       },
     },
-
-
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: 'Roboto, sans-serif',
+      }
+    },
   },
   plugins: [],
 }
