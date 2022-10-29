@@ -1,14 +1,11 @@
-import { useState } from "react"
 import "./styles/index.css"
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export function App() {
   return (
-    <div className='App'>
-      <h1>Hello World</h1>
+    <div className="bg-gray-400 h-10">
+      <h1 className="text-gray-300 text-sm">Hello World</h1>
     </div>
   )
 }
 
-export default App
+

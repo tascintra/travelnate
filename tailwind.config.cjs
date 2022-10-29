@@ -31,6 +31,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'Roboto, sans-serif',
+      },
+      backgroundImage: {
+        natureBlue: 'url(/public/bg.jpg)',
       }
     },
   },
