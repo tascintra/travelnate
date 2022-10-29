@@ -1,3 +1,5 @@
+import { PaperPlaneRight } from "phosphor-react"
+import { Button, SendButton } from "./components/Button"
 import { Text } from "./components/Text"
 import { TextInput } from "./components/TextInput"
 import "./styles/index.css"
@@ -23,8 +25,13 @@ export function App() {
             <TextInput.Input type='text' id="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" placeholder="CPF" />
           </TextInput.Root>
         </div>
-        <div className="bg-gray-300 w-3/6 h-full rounded-4xl">
-          
+        <div className="w-3/6 h-full flex flex-col items-center justify-center gap-6">
+          <Button type="submit" className="w-36 h-12 flex justify-center items-center gap-2">
+            <SendButton.Icon>
+              <PaperPlaneRight />
+            </SendButton.Icon>
+            Enviar
+          </Button>
         </div>
       </form>
     </div>
