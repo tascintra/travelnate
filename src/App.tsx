@@ -1,4 +1,5 @@
 import { Text } from "./components/Text"
+import { TextInput } from "./components/TextInput"
 import "./styles/index.css"
 
 export function App() {
@@ -9,6 +10,9 @@ export function App() {
           <Text size="md" className="text-gray-500 text mt-12">
             Dados Pessoais
           </Text>
+          <TextInput.Root>
+            <TextInput.Input type='text' id="nome" placeholder="Nome" />
+          </TextInput.Root>
         </div>
         <div className="bg-gray-300 w-3/6 h-full rounded-4xl">
 
