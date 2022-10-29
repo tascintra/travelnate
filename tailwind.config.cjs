@@ -41,7 +41,8 @@ module.exports = {
         '4xl': '3rem',
       },
       boxShadow: {
-        flat: '0 2px 2px 0 #0000001A'
+        flat: '0 2px 2px 0 #0000001A',
+        focus: '0 0 8px 0 #00000026',
       },
       width: {
         75: '300px'
