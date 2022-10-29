@@ -42,7 +42,7 @@ module.exports = {
       },
       boxShadow: {
         flat: '0 2px 2px 0 #0000001A',
-        focus: '0 0 8px 0 #00000026',
+        focus: '0 0 12px 0 #0000001A',
       },
       width: {
         75: '300px'
