@@ -6,14 +6,14 @@ export function App() {
   return (
     <div className="bg-natureBlue h-screen flex items-center justify-center">
       <div className="bg-transWhite w-2/3 h-3/6 rounded-4xl flex flex-row">
-        <div className="w-3/6 h-full flex justify-center gap-6">
+        <form className="w-3/6 h-full flex flex-col items-center gap-6">
           <Text size="md" className="text-gray-500 mt-12">
             Dados Pessoais
           </Text>
           <TextInput.Root>
             <TextInput.Input type='text' id="nome" placeholder="Nome" />
           </TextInput.Root>
-        </div>
+        </form>
         <div className="bg-gray-300 w-3/6 h-full rounded-4xl">
 
         </div>
