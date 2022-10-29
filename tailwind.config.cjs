@@ -39,7 +39,10 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '3rem',
-      }
+      },
+      boxShadow: {
+        flat: '0 2px 2px 0 #0000001A'
+      },
     },
   },
   plugins: [],
