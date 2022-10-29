@@ -8,7 +8,7 @@ export function App() {
 
         </div>
         <div className="bg-gray-300 w-3/6 h-full rounded-4xl">
-          
+
         </div>
       </div>
     </div>
