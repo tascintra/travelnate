@@ -26,6 +26,9 @@ export function App() {
           </TextInput.Root>
         </div>
         <div className="w-3/6 h-full flex flex-col items-center justify-center gap-6">
+          <Text size="md" className="text-gray-500 mb-2">
+            Destinos de Interesse
+          </Text>
           <Button type="submit" className="w-36 h-12 flex justify-center items-center gap-2">
             <SendButton.Icon>
               <PaperPlaneRight />
