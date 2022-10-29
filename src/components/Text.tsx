@@ -13,7 +13,7 @@ export function Text({ size = 'sm', children, asChild, className }: TextProps) {
   const Comp = asChild ? Slot : 'span'
   return (
     <Comp
-      className={clsx('text-gray-300 font-sans', 
+      className={clsx('text-gray-500 font-sans', 
         {
           'text-sm': size === 'sm',
           'text-md': size === 'md',
