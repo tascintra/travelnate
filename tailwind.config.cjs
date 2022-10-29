@@ -34,6 +34,9 @@ module.exports = {
       },
       backgroundImage: {
         natureBlue: 'url(/public/bg.jpg)',
+      },
+      borderRadius: {
+        '4xl': '3rem',
       }
     },
   },
