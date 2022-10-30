@@ -1,6 +1,6 @@
 import React from "react";  
 
-const MultiSelectDropdown = ({list, addItem} : any) => {
+const MultiSelectDropdownCountries = ({list, addItem} : any) => {
   return (<div id="dropdown" className="absolute shadow bg-white z-40 w-96 max-h-80 lef-0 rounded-l-[36px] max-h-select overflow-y-auto">
   <div className="flex flex-col w-full">
       { list.map((item: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined, key: React.Key | null | undefined) => {
@@ -21,4 +21,4 @@ const MultiSelectDropdown = ({list, addItem} : any) => {
 
 };
 
-export default MultiSelectDropdown; 
+export default MultiSelectDropdownCountries; 
