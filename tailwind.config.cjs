@@ -18,6 +18,7 @@ module.exports = {
         300: '#D2D2D2',
         200: '#DDDDDD',
         100: '#EAEAEA',
+        50: '#F5F5F5'
       },
       
       gradient: {

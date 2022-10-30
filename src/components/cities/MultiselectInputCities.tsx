@@ -1,12 +1,12 @@
 import { CaretDown, X } from "phosphor-react";
 import React, { useState, Component } from "react";
-import MultiSelectDropdown from "./MultiselectDropdown"
+import MultiSelectDropdown from "./MultiselectDropdownCities"
 
 const MultiselectInput = () => {
     // state showing if dropdown is open or closed
     const [dropdown, setDropdown] = useState(false);
     // managing dropdown items (list of dropdown items)
-    const [items, setItems] = useState(['Andorra', 'Emirados \u00c1rabes Unidos', 'Afeganist\u00e3o', 'Ant\u00edgua e Barbuda', 'Anguilla', 'Alb\u00e2nia', 'Arm\u00eania', 'Ant\u00e1rtica', 'Argentina', 'Samoa Americana', '\u00c1ustria', 'Austr\u00e1lia', 'Aruba', 'Ilhas \u00c5land', 'Azerbaij\u00e3o', 'B\u00f3snia e Herzegovina', 'Bangladesh', 'B\u00e9lgica', 'Burkina Faso', 'Bulg\u00e1ria', 'Bahrain', 'Burundi', 'Benin', 'S\u00e3o Bartolomeu', 'Bermuda', 'Brunei Darussalam', 'Bol\u00edvia', 'Bonaire, Santo Eust\u00e1quio e Saba', 'Brasil', 'Bahamas', 'But\u00e3o']);
+    const [items, setItems] = useState(['Inglaterra', 'Espanha', 'Chile', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China']);
     // contains selected items
     const [selectedItems, setSelected] = useState([]);
 
@@ -48,7 +48,7 @@ const MultiselectInput = () => {
                                   })
                               }
                               <div className="flex-1">
-                                  <input placeholder="Selecione um país" className="bg-transparent p-1 px-5 appearance-none outline-none h-full w-full placeholder:text-gray-300"/>
+                                  <input placeholder="" className="bg-transparent p-1 px-5 appearance-none outline-none h-full w-full placeholder:text-gray-300"/>
                               </div>
                           </div>
                           <div className="text-gray-300 w-10 py-1 pl-2 pr-1 border-l flex items-center border-gray-200" onClick={toogleDropdown}>

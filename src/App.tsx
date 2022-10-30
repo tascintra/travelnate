@@ -1,10 +1,11 @@
 import { PaperPlaneRight } from "phosphor-react"
 import { Button, SendButton } from "./components/Button"
-import MultiselectInput from "./components/MultiselectInput"
 import { Text } from "./components/Text"
 import { TextInput } from "./components/TextInput"
 import "./styles/index.css"
 import { FormEvent, useState } from 'react';
+import MultiselectInput from "./components/MultiselectInput"
+
 
 export function App() {
   async function handleSignIn(event: FormEvent) {
