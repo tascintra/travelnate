@@ -1,12 +1,12 @@
 import { CaretDown, X } from "phosphor-react";
 import React, { useState, Component } from "react";
-import MultiSelectDropdown from "./MultiselectDropdownCities"
+import MultiSelectDropdownCities from "./MultiselectDropdownCities"
 
-const MultiselectInput = () => {
+const MultiselectInputCities = () => {
     // state showing if dropdown is open or closed
     const [dropdown, setDropdown] = useState(false);
     // managing dropdown items (list of dropdown items)
-    const [items, setItems] = useState(['Inglaterra', 'Espanha', 'Chile', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China', 'China']);
+    const [items, setItems] = useState(['Amparo, Estado de S\u00e3o Paulo', 'Brisbane, Queensland, Austr\u00e1lia', 'Costa Dourada, Queensland, Austr\u00e1lia', 'Sydney, Nova Gales do Sul, Austr\u00e1lia', 'Londres, Reino Unido', 'Manchester, Reino Unido', 'Cambridge, Reino Unido', 'Liverpool, Reino Unido', 'Oxford, Reino Unido', 'Torquay, Reino Unido', 'Salisb\u00faria, Reino Unido', 'Edimburgo, Reino Unido', 'Bournemouth, Reino Unido', 'Dublin, Irlanda', 'Auckland, Nova Zel\u00e2ndia', 'Melbourne, Victoria, Austr\u00e1lia', 'Perth, Austr\u00e1lia Ocidental, Austr\u00e1lia', 'Adelaide, Austr\u00e1lia Meridional, Austr\u00e1lia', 'Cairns, Queensland, Austr\u00e1lia', 'Cairns, Queensland, Austr\u00e1lia', 'Vancouver, BC, Canad\u00e1', 'Toronto, ON, Canad\u00e1', 'Sliema, Malta', 'Nova York, NY, Estados Unidos', 'Boston, MA, Estados Unidos', 'Washington, DC, Estados Unidos', 'Filad\u00e9lfia, PA, Estados Unidos', 'Miami, Fl\u00f3rida, Estados Unidos', 'Chicago, IL, Estados Unidos', 'Seattle, WA, Estados Unidos', 'Portland, OR, Estados Unidos']);
     // contains selected items
     const [selectedItems, setSelected] = useState([]);
 
@@ -48,7 +48,7 @@ const MultiselectInput = () => {
                                   })
                               }
                               <div className="flex-1">
-                                  <input placeholder="" className="bg-transparent p-1 px-5 appearance-none outline-none h-full w-full placeholder:text-gray-300"/>
+                                  <input placeholder="Selecione as cidades" className="bg-transparent p-1 px-5 appearance-none outline-none h-full w-full placeholder:text-gray-300"/>
                               </div>
                           </div>
                           <div className="text-gray-300 w-10 py-1 pl-2 pr-1 border-l flex items-center border-gray-200" onClick={toogleDropdown}>
@@ -59,7 +59,7 @@ const MultiselectInput = () => {
                       </div>
                   </div>
               </div>
-              { dropdown  ? <MultiSelectDropdown list={items} addItem={addTag}></MultiSelectDropdown>: null }
+              { dropdown  ? <MultiSelectDropdownCities list={items} addItem={addTag}></MultiSelectDropdownCities>: null }
           </div>
           </div>
 
@@ -68,4 +68,4 @@ const MultiselectInput = () => {
 };
 
 
-export default MultiselectInput
+export default MultiselectInputCities

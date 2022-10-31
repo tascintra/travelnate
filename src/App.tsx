@@ -5,6 +5,8 @@ import { TextInput } from "./components/TextInput"
 import "./styles/index.css"
 import { FormEvent, useState } from 'react';
 import MultiselectInputCountries from "./components/countries/MultiselectInputCountries"
+import SelectDropdown from "./components/SelectDropdown"
+import MultiselectInputCities from "./components/cities/MultiselectInputCities"
 
 
 export function App() {
@@ -22,16 +24,16 @@ export function App() {
             Dados Pessoais
           </Text>
           <TextInput.Root>
-            <TextInput.Input type='text' id="nome" placeholder="Nome" />
+            <TextInput.Input required type='text' id="nome" placeholder="Nome" />
           </TextInput.Root>
           <TextInput.Root>
-            <TextInput.Input type='email' id="email" placeholder="E-mail" />
+            <TextInput.Input required type='email' id="email" placeholder="E-mail" />
           </TextInput.Root>
           <TextInput.Root>
-            <TextInput.Input type='tel' id="tel" pattern="\(?\d{3}\)?\d{5}\-?\d{4}" placeholder="Telefone" />
+            <TextInput.Input required type='tel' id="tel" placeholder="Telefone" />
           </TextInput.Root>
           <TextInput.Root>
-            <TextInput.Input type='text' id="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" placeholder="CPF" />
+            <TextInput.Input required type='text' id="cpf" placeholder="CPF" />
           </TextInput.Root>
         </div>
 
@@ -39,7 +41,9 @@ export function App() {
           <Text size="md" className="text-gray-500 mb-2">
             Destinos de Interesse
           </Text>
+          {/* <SelectDropdown /> */}
           <MultiselectInputCountries />
+          <MultiselectInputCities />
           <Button type="submit" className="w-32 h-12">
             <SendButton.Icon>
               <PaperPlaneRight />
