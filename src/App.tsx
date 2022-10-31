@@ -41,7 +41,7 @@ export function App() {
           <Text size="md" className="text-gray-500 mb-2">
             Destinos de Interesse
           </Text>
-          {/* <SelectDropdown /> */}
+          <SelectDropdown />
           <MultiselectInputCountries />
           <MultiselectInputCities />
           <Button type="submit" className="w-32 h-12">
