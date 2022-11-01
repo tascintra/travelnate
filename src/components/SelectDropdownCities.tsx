@@ -56,7 +56,7 @@ function SelectDropdownCities() {
   }
 
   return (
-    <div className=''>
+    <div>
       <Select
         placeholder={<div className='text-gray-300'>Selecione as cidades</div>}
         styles={customStyles}

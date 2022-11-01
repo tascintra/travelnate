@@ -56,7 +56,7 @@ function SelectDropdownCountries() {
   }
 
   return (
-    <div className=''>
+    <div>
       <Select
         placeholder={<div className='text-gray-300'>Selecione os países</div>}
         styles={customStyles}
