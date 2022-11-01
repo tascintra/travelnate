@@ -1,12 +1,14 @@
 import { PaperPlaneRight } from "phosphor-react"
-import { Button, SendButton } from "./components/Button"
+import { FormEvent } from 'react';
+
+
+import "./styles/index.css"
+
 import { Text } from "./components/Text"
 import { TextInput } from "./components/TextInput"
-import "./styles/index.css"
-import { FormEvent, useState } from 'react';
-import MultiselectInputCountries from "./components/countries/MultiselectInputCountries"
-import MultiselectInputCities from "./components/cities/MultiselectInputCities"
+import { Button, SendButton } from "./components/Button"
 import SelectDropdownCountries from "./components/SelectDropdownCountries"
+import SelectDropdownCities from "./components/SelectDropdownCities"
 
 
 export function App() {
@@ -42,8 +44,7 @@ export function App() {
             Destinos de Interesse
           </Text>
           <SelectDropdownCountries />
-          <MultiselectInputCountries />
-          <MultiselectInputCities />
+          <SelectDropdownCities />
           <Button type="submit" className="w-32 h-12">
             <SendButton.Icon>
               <PaperPlaneRight />
