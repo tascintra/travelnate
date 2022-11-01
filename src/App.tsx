@@ -5,8 +5,8 @@ import { TextInput } from "./components/TextInput"
 import "./styles/index.css"
 import { FormEvent, useState } from 'react';
 import MultiselectInputCountries from "./components/countries/MultiselectInputCountries"
-import SelectDropdown from "./components/SelectDropdown"
 import MultiselectInputCities from "./components/cities/MultiselectInputCities"
+import SelectDropdownCountries from "./components/SelectDropdownCountries"
 
 
 export function App() {
@@ -41,7 +41,7 @@ export function App() {
           <Text size="md" className="text-gray-500 mb-2">
             Destinos de Interesse
           </Text>
-          <SelectDropdown />
+          <SelectDropdownCountries />
           <MultiselectInputCountries />
           <MultiselectInputCities />
           <Button type="submit" className="w-32 h-12">
