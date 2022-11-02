@@ -62,6 +62,7 @@ This project was built using following technologies:
 - Figma
 - GIT
 - Vite
+- Node
 
 <br>
 
