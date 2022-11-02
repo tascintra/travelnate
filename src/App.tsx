@@ -20,8 +20,8 @@ export function App() {
   
   return (
     <div className="bg-natureBlue h-screen flex items-center justify-center">
-      <form onSubmit={handleSignIn} className="bg-transWhite min-h-min min-w-min rounded-4xl flex flex-col items-center divide-x-0 md:flex-row md:divide-x md:w-2/3 md:h-3/6 p-4">
-        <div className="w-3/6 min-w-min h-full flex flex-col items-center justify-center gap-6">
+      <form onSubmit={handleSignIn} className="bg-transWhite min-h-min min-w-min rounded-4xl flex flex-col items-center divide-x-0 md:flex-row md:divide-x md:w-2/3 md:h-3/6 py-6 md:p-4">
+        <div className="w-3/6 min-w-min h-full flex flex-col items-center justify-center gap-6 md:mr-3">
           <Text size="md" className="text-gray-500 mb-2">
             Dados Pessoais
           </Text>
@@ -39,8 +39,8 @@ export function App() {
           </TextInput.Root>
         </div>
 
-        <div className="w-3/6 h-full flex flex-col items-center justify-center gap-6">
-          <Text size="md" className="text-gray-500 mb-2 text-center w-96 mt-12 md:mt-0">
+        <div className="w-3/6 min-w-min h-full flex flex-col items-center justify-center gap-6 md:pl-3">
+          <Text size="md" className="text-gray-500 mb-2 text-center w-96 mt-12 md:mt-0 md:w-full">
             Destinos de Interesse
           </Text>
           <SelectDropdownCountries />
