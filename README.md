@@ -61,6 +61,7 @@ This project was built using following technologies:
 - Radix
 - Figma
 - GIT
+- Vite
 
 <br>
 
