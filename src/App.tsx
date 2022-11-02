@@ -20,8 +20,8 @@ export function App() {
   
   return (
     <div className="bg-natureBlue h-screen flex items-center justify-center">
-      <form onSubmit={handleSignIn} className="bg-transWhite w-2/3 h-3/6 rounded-4xl flex flex-row divide-x">
-        <div className="w-3/6 h-full flex flex-col items-center justify-center gap-6">
+      <form onSubmit={handleSignIn} className="bg-transWhite min-h-min min-w-min rounded-4xl flex flex-col items-center divide-x-0 md:flex-row md:divide-x md:w-2/3 md:h-3/6 p-4">
+        <div className="w-3/6 min-w-min h-full flex flex-col items-center justify-center gap-6">
           <Text size="md" className="text-gray-500 mb-2">
             Dados Pessoais
           </Text>
@@ -40,7 +40,7 @@ export function App() {
         </div>
 
         <div className="w-3/6 h-full flex flex-col items-center justify-center gap-6">
-          <Text size="md" className="text-gray-500 mb-2">
+          <Text size="md" className="text-gray-500 mb-2 text-center w-96 mt-12 md:mt-0">
             Destinos de Interesse
           </Text>
           <SelectDropdownCountries />
