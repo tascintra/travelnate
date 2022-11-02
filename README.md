@@ -16,6 +16,7 @@ Challenge solved for a job selection process.
 <p align="center">
   <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-i-learned">Learned</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-continued-development">Continued development</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-author">Author</a>
 </p>
 
@@ -62,6 +63,7 @@ This project was built using following technologies:
 - Figma
 - GIT
 - Vite
+- Node
 
 <br>
 
@@ -81,6 +83,12 @@ Figma Layout: [Figma](https://www.figma.com/file/BuionWumxGbTsuxZQVssns/travelna
 ## ✔️ I learned
 
 How to build an Axios get request information from an API, how to manipulate Arrays to build a list of objects and populate a react-select multi select component, how to style components with Emotion based style labrary.
+
+<br>
+
+## 👨‍💻 Continued development
+
+The next step for this project is to improve the multi select component and make it more reusable. Also, improve the Axios request, the arrays filtering and information processing.
 
 <br>
 
