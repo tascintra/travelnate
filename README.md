@@ -16,7 +16,6 @@ Challenge solved for a job selection process.
 <p align="center">
   <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-i-learned">Learned</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-continued-development">Continued development</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#%EF%B8%8F-author">Author</a>
 </p>
 
@@ -27,24 +26,25 @@ Challenge solved for a job selection process.
 <br>
 
 <p align="center">
-  <img alt="rocketpay" src="./github/travelnate-screenshot.png" width="100%">
+  <img alt="Travelnate screen shot" src="./.github/travelnate-screenshot.png" width="100%">
 </p>
 
 <br>
 
 ## 🏆 The challenge
-The challenge was to build an intro section of a web page for a company that offers better productivity for teams that work remotely. The section has a top menu with 6 options and 2 of them are drop down menus with more options inside them and the greatest challenge was to build interaction between them.
+The challenge was to build a React application with a form asking the user's name, e-mail, telephone number, cpf, and countries and cities of interest. All fields should be required. The countries and cities field should allow multiple selection and also make a GET from an Amazon's API.
 
 Users should be able to:
 
+- Fill all fields with the asked information
 - View the optimal layout depending on their device's screen size
-- Have interation with the web page when they click on a drop down menu
+- Select countries and cities from an external info source
 
 <br>
 
 ## 🎯 Learning goals
 
-Improve my skills with JavaScript DOM and building interface interactions.
+Learn how to make a GET request from an API in a React interface and how to build a multiple select component with React.
 
 <br>
 
@@ -52,37 +52,34 @@ Improve my skills with JavaScript DOM and building interface interactions.
 
 This project was built using following technologies:
 
-- HTML
-- CSS
+- React
+- TypeScript
 - JavaScript
+- Tailwind CSS
+- React-select
+- Axios
+- Radix
+- Figma
 - GIT
 
 <br>
 
 ## 💻 Project
 
-![](.github/intro-section-demo.gif)
-
-The main challenge on this project was to build the solution to keep only one drop down menu opened at once. So I had to create the alternance feature with JavaScript. And I also created a function to identify and close the drop down menu when the user clicks outsite of them. I build the responsiveness using media queries and the main content has multiple breakpoints creating the optimal layout for small screens and big screens.
+The main challenge on this project was to build the multi select for countries and cities and populate it with an API information. I build the project layout design on Figma based on Airbnb design. I used Axios to get the API information and react-select to create the component to show the information for the user.
 
 <br>
 
 ## 🌎 Deploy
-Live Site URL: [intro-section-tascintra.vercel.app](https://intro-section-tascintra.vercel.app/)
+Live Site URL: [travelnate.vercel.app](https://travelnate.vercel.app/)
 <br>
-Solution URL: [frontendmentor.io/solutions/intro-section-with-dropdown-navigation-EL64Xc8-md](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-EL64Xc8-md)
+Figma Layout: [Figma](https://www.figma.com/file/BuionWumxGbTsuxZQVssns/travelnate) (You'll need a Figma account)
 
 <br>
 
 ## ✔️ I learned
 
-How to build JavaScript drop down menu interations and mobile menu interations and improved my DOM and positioning skills.
-
-<br>
-
-## 👨‍💻 Continued development
-
-Now for the next project I'll refactor the [loopstudios](https://github.com/tascintra/loopstudios) project that I made some time ago and wasn't able to finish the challenge. The loopstudios project is a landing page that has some interactions with mobile menu and is challenging to make the proposed positioning in the page.
+How to build an Axios get request information from an API, how to manipulate Arrays to build a list of objects and populate a react-select multi select component, how to style components with Emotion based style labrary.
 
 <br>
 
