@@ -45,7 +45,7 @@ export function App() {
           </Text>
           <SelectDropdownCountries />
           <SelectDropdownCities />
-          <Button type="submit" className="w-32 h-12">
+          <Button type="submit" className="w-32 h-12 md:mt-10">
             <SendButton.Icon>
               <PaperPlaneRight />
             </SendButton.Icon>
