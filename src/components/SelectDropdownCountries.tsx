@@ -32,6 +32,12 @@ function SelectDropdownCountries() {
       borderRadius: "48px",
       padding: "8px 16px",
       width: "382px",
+      "@media (max-width: 1024px)": {
+        width: "256px",
+      },
+      "@media (max-width: 768px)": {
+        width: "320px",
+      },
       "&:hover": {
         borderColor: null,
       },
