@@ -47,7 +47,7 @@ module.exports = {
       },
       width: {
         75: '300px',
-        '2/3-screen': '67vw',
+        310: '1240px',
       },
       height: {
         120: '480px'
