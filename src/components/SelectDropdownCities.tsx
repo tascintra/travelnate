@@ -31,12 +31,9 @@ function SelectDropdownCities() {
         : "0 2px 2px 0 #0000001A",
       borderRadius: "48px",
       padding: "8px 16px",
-      width: "382px",
-      "@media (max-width: 1024px)": {
-        width: "256px",
-      },
-      "@media (max-width: 768px)": {
-        width: "320px",
+      width: "320px",
+      "@media (min-width: 1024px)": {
+        width: "382px",
       },
       "&:hover": {
         borderColor: null,
