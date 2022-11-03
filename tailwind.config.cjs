@@ -46,7 +46,8 @@ module.exports = {
         focus: '0 0 12px 0 #0000001A',
       },
       width: {
-        75: '300px'
+        75: '300px',
+        '2/3-screen': '67vw',
       },
       height: {
         120: '480px'
