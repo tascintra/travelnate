@@ -8,7 +8,9 @@ Challenge solved for a job selection process.
 <p align="center">
   <a href="#-the-challenge">The challenge</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-deploy">Deploy</a>
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-build-instructions">Build Instructions</a>
+  
 </p>
 
 
@@ -54,3 +56,10 @@ Live Site URL: [travelnate.vercel.app](https://travelnate.vercel.app/)
 <br>
 Figma Layout: [Figma](https://www.figma.com/file/BuionWumxGbTsuxZQVssns/travelnate) (You'll need a Figma account)
 
+## 📝 Build Instructions
+After downloading the project files run the following commands to build the project.
+
+```
+npm install
+npm run dev
+```
