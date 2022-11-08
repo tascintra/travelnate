@@ -13,7 +13,7 @@ function SelectDropdownCities() {
       await axios.get(url).then((res) => {
         let result = res.data
         result.map((city: any) => {
-          return arr.push({ value: city.code, label: city.name_ptbr })
+          return arr.push({ value: city.code, label: city.name_ptbr === null ? city.name : city.name_ptbr })
         })
         setCities(arr)
       })
