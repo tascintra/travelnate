@@ -9,13 +9,14 @@ function SelectDropdownCountries() {
 
   useEffect(() => {
     const getData = async () => {
-      const arr: any = []
+      const arrCountries: any = []
       await axios.get(url).then((res) => {
         let result = res.data
         result.map((country: any) => {
-          return arr.push({ value: country.code, label: country.name_ptbr })
+          return arrCountries.push({ value: country.code, label: country.name_ptbr })
         })
-        setCountries(arr)
+        const arrAscendingCountries = [...arrCountries].sort((a, b) => a.label > b.label ? 1 : -1)
+        setCountries(arrAscendingCountries)
       })
     }
     getData()
