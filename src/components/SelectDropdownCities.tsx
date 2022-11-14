@@ -9,13 +9,14 @@ function SelectDropdownCities() {
 
   useEffect(() => {
     const getData = async () => {
-      const arr: any = []
+      const arrCities: any = []
       await axios.get(url).then((res) => {
         let result = res.data
         result.map((city: any) => {
-          return arr.push({ value: city.code, label: city.name_ptbr === null ? city.name : city.name_ptbr })
+          return arrCities.push({ value: city.code, label: city.name_ptbr === null ? city.name : city.name_ptbr })
         })
-        setCities(arr)
+        const arrAscendingCities = [...arrCities].sort((a, b) => a.label > b.label ? 1 : -1)
+        setCities(arrAscendingCities)
       })
     }
     getData()
