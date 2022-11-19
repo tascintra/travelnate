@@ -20,7 +20,7 @@ function SelectDropdownCountries() {
       })
     }
     getData()
-  })
+  }, [])
 
   const customStyles = {
     control: (base: any, state: any) => ({

@@ -20,7 +20,7 @@ function SelectDropdownCities() {
       })
     }
     getData()
-  })
+  }, [])
 
   const customStyles = {
     control: (base: any, state: any) => ({
